@@ -2,6 +2,29 @@ html, body{
     scroll-behavior: smooth;
  }
 
+.container1>.titles{
+   color: #000;
+}
+
+ .titles{
+   color: #fff;
+   text-shadow: #000 1px 0 10px;
+   text-align: center;
+ }
+
+.card-title{
+   color: #000;
+ }
+
+.presentation{
+   display: flex;
+   justify-content: center
+}
+
+.video{
+   padding: 50px;
+}
+
 /*!
  * Materialize v1.0.0 (http://materializecss.com)
  * Copyright 2014-2017 Materialize
@@ -36,23 +59,27 @@ html, body{
 
 
 .container1{
-    background-image: url(../img/ionia.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    width: 100%;
+
 }
 
  .team{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 200px;
+    padding: 100px;
  }
 
  .titles{
     display: flex;
     justify-content: center;
+ }
+
+ .videos{
+   background-image: url(../img/ionia.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   width: 100%;
  }
 
  .blockv{
